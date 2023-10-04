@@ -17,7 +17,7 @@ public class MinHeapController {
         return Mono.just("Value " + value + " inserted into the MinHeap.");
     }
 
-    @DeleteMapping("/deleteMin")
+    @DeleteMapping("/deletemin")
     public Mono<String> deleteMin() {
         int minValue = minHeap.deleteMin();
         if (minValue != -1) {
