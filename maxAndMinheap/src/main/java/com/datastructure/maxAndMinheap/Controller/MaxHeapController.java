@@ -43,7 +43,7 @@ public class MaxHeapController {
         }
     }
     
-    @GetMapping("/getHeap")
+    @GetMapping("/getheap")
     public Mono<int[]> getMaxHeap() {
         return Mono.just(maxHeap.toArray());
     }
