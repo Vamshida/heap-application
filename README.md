@@ -24,7 +24,8 @@ This application should work on various operating systems, including Windows, ma
    (https://maven.apache.org/download.cgi) and follow the installation instructions.
 
 3. **Clone the Repository:** Clone this repository to your local machine using Git:
-   
+
+   ```bash
    git clone https://github.com/your-username/heap-application.git
    
 ### Build the Application:
