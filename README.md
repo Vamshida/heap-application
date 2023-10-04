@@ -27,11 +27,12 @@ This application should work on various operating systems, including Windows, ma
 
    git clone https://github.com/your-username/heap-application.git
    
-### Build the Application:
-Navigate to the project directory and build the application using Maven:
-
+### Navigate to the project directory 
 cd heap-application
+
+### build the application using Maven:
 mvn clean package
+This will create a jar file
 
 ### Run the Application: 
 After a successful build, you can run the application using the following command:
@@ -63,9 +64,9 @@ Example: http://localhost:8081/minheap/deletemin
 
 Retrieve the Current State of MinHeap:
 
-Endpoint: GET /minheap/getHeap
+Endpoint: GET /minheap/getheap
 
-Example: http://localhost:8081/minheap/getHeap
+Example: http://localhost:8081/minheap/getheap
 
 
 ### MaxHeap Endpoints
@@ -89,8 +90,8 @@ Example: http://localhost:8081/maxheap/deletemax
 
 Retrieve the Current State of MaxHeap:
 
-Endpoint: GET /maxheap/getHeap
+Endpoint: GET /maxheap/getheap
 
-Example: http://localhost:8081/maxheap/getHeap
+Example: http://localhost:8081/maxheap/getheap
 
 
