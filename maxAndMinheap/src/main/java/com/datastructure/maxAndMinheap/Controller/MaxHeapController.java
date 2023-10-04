@@ -23,7 +23,7 @@ public class MaxHeapController {
         return Mono.just("Value " + value + " inserted into the MaxHeap.");
     }
 
-    @DeleteMapping("/deleteMax")
+    @DeleteMapping("/deletemax")
     public Mono<String> deleteMax() {
         int maxValue = maxHeap.deleteMax();
         if (maxValue != -1) {
