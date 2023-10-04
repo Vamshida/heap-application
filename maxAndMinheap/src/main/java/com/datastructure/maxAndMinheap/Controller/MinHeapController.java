@@ -37,7 +37,7 @@ public class MinHeapController {
         }
     }
     
-    @GetMapping("/getHeap")
+    @GetMapping("/getheap")
     public Mono<int[]> getMinHeap() {
         return Mono.just(minHeap.toArray());
     }
