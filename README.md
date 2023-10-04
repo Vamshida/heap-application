@@ -46,29 +46,43 @@ The application exposes two sets of REST endpoints: one for the MinHeap and anot
 Insert a Value into MinHeap:
 
 Endpoint: POST /minheap/insert?value=<value>
-Example: http://localhost:8080/minheap/insert?value=42
+Example: http://localhost:8081/minheap/insert?value=42
+
 Delete a Value from MinHeap:
 
 Endpoint: DELETE /minheap/delete/<value>
-Example: http://localhost:8080/minheap/delete/42
+Example: http://localhost:8081/minheap/delete/42
+
+Delete a MinValue from MinHeap:
+
+Endpoint: DELETE /minheap/deletemin
+Example: http://localhost:8081/minheap/deletemin
+
 Retrieve the Current State of MinHeap:
 
 Endpoint: GET /minheap/getHeap
-Example: http://localhost:8080/minheap/getHeap
+Example: http://localhost:8081/minheap/getHeap
 
 
 ### MaxHeap Endpoints
 Insert a Value into MaxHeap:
 
 Endpoint: POST /maxheap/insert?value=<value>
-Example: http://localhost:8080/maxheap/insert?value=42
+Example: http://localhost:8081/maxheap/insert?value=42
+
 Delete a Value from MaxHeap:
 
 Endpoint: DELETE /maxheap/delete/<value>
-Example: http://localhost:8080/maxheap/delete/42
+Example: http://localhost:8081/maxheap/delete/42
+
+Delete a Value from MaxHeap:
+
+Endpoint: DELETE /maxheap/deletemax
+Example: http://localhost:8081/maxheap/deletemax
+
 Retrieve the Current State of MaxHeap:
 
 Endpoint: GET /maxheap/getHeap
-Example: http://localhost:8080/maxheap/getHeap
+Example: http://localhost:8081/maxheap/getHeap
 
 
