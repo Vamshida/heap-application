@@ -25,19 +25,18 @@ This application should work on various operating systems, including Windows, ma
 
 3.**Clone the Repository:** Clone this repository to your local machine using Git:
 
-   ```bash
    git clone https://github.com/your-username/heap-application.git
    
 ### Build the Application:
 Navigate to the project directory and build the application using Maven:
 
--cd heap-application
--mvn clean package
+cd heap-application
+mvn clean package
 
 ### Run the Application: 
 After a successful build, you can run the application using the following command:
 
--java -jar target/heap-application.jar
+java -jar target/heap-application.jar
 
 ### How to Use the Application
 
@@ -91,6 +90,7 @@ Example: http://localhost:8081/maxheap/deletemax
 Retrieve the Current State of MaxHeap:
 
 Endpoint: GET /maxheap/getHeap
+
 Example: http://localhost:8081/maxheap/getHeap
 
 
