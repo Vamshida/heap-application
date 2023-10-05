@@ -28,10 +28,11 @@ This application should work on various operating systems, including Windows, ma
    git clone https://github.com/Vamshida/heap-application.git
    
 ### Navigate to the project directory 
-cd heap-application
+cd maxAndMinheap
 
 ### build the application using Maven:
 mvn clean package
+
 This will create a jar file
 
 ### Run the Application: 
