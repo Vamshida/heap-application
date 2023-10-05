@@ -37,7 +37,7 @@ This will create a jar file
 ### Run the Application: 
 After a successful build, you can run the application using the following command:
 
-java -jar target/heap-application.jar
+java -jar target/maxAndMinheap-0.0.1-SNAPSHOT.jar
 
 ### How to Use the Application
 
